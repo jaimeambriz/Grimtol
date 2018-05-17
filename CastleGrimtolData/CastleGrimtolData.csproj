@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Providors\" />
+    <Folder Include="Modles\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="HelperModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Providors\CastleGrimtolProviidor.cs" />
+    <Compile Remove="FakeDb.cs" />
+    <Compile Remove="Providors\EmptyClass.cs" />
+    <Compile Remove="Interfaces\Test.cs" />
+  </ItemGroup>
+</Project>
